@@ -37,14 +37,14 @@ DEFAULTS = {
     "GRID_Y":            (20.0,  "Board", "Vertical grid pitch (mm)"),
     "BOARD_THICK":       ( 5.0,  "Board", "Skadis board thickness (mm)"),
     "BOARD_CLEAR":       ( 0.3,  "Board", "Clearance around board in slot gap (mm)"),
-    "HOOK_WIDTH":        ( 3.0,  "Hook",  "Hook width — must fit through slot (mm)"),
-    "TOP_ARM_HEIGHT":    ( 3.0,  "Hook",  "Top arm thickness in Z (mm)"),
+    "HOOK_WIDTH":        ( 4.0,  "Hook",  "Hook width — must fit through slot (mm)"),
+    "TOP_ARM_HEIGHT":    ( 4.0,  "Hook",  "Top arm thickness in Z (mm)"),
     "BACK_ARM_THICK":    ( 2.0,  "Hook",  "Back arm depth in Y (mm)"),
-    "BACK_ARM_HEIGHT":   ( 9.0,  "Hook",  "Back arm total height in Z (mm)"),
-    "DROP_DEPTH":        ( 1.65, "Hook",  "Drop stem depth in Y (mm)"),
-    "DROP_HEIGHT":       ( 2.0,  "Hook",  "Drop stem height in Z (mm)"),
+    "BACK_ARM_HEIGHT":   ( 0.01,  "Hook",  "Back arm total height in Z (mm)"),
+    "DROP_DEPTH":        ( 4, "Hook",  "Drop stem depth in Y (mm)"),
+    "DROP_HEIGHT":       ( 11.0,  "Hook",  "Drop stem height in Z (mm)"),
     "HOOK_COLS":         ( 2.0,  "Hook",  "Number of hook columns"),
-    "HOOK_ROWS":         ( 2.0,  "Hook",  "Desired hook rows per column (auto-clamped to fit)"),
+    "HOOK_ROWS":         ( 1.0,  "Hook",  "Desired hook rows per column (auto-clamped to fit)"),
 }
 
 
